@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color:rgb(201, 139, 139) ;
+}
+p {
+    font-size: 20px;
+}
+.input {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+}
+
+textarea {
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: rgb(201, 139, 139);
+    border-bottom: 2px solid black;
+    width: 50%;
+
+}
+::-webkit-scrollbar {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+.btn {
+    background-color: rgb(236, 198, 198);
+    border: none;
+    outline: none;
+    font-size: 32px;
+    border-radius: 50%;
+}
+
+.chat {
+    list-style: none;
+    font-size: 30px;
+}
+button {
+    border: none;
+    outline: none;
+    background-color: rgb(236, 198, 198);
+}
+input {
+    font-size: 30px;
+    background-color: rgb(236, 198, 198);
+    outline: none;
+}
+.login {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /*position:relative;
+    margin-top:180px;*/
+    border: 2px solid black;
+}
+:hover.login {
+    background-color: rgb(236, 198, 198);
+    border: 2px solid black;
+}
+.signout {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+}
+:hover.signout {
+    background-color: rgb(236, 198, 198);
+    border: 2px solid black;
+}
+.chatMessages {
+    border: 2px solid black;
+    background-color: rgb(236, 198, 198);
+}
+.back {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+}
+:hover.back {
+    background-color: rgb(236, 198, 198);
+    border: 2px solid black;
+}
